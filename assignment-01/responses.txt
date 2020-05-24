@@ -1,7 +1,17 @@
 How is the web different than the internet?
 
+The internet is the system of interconnected networks that share a single file
+transfer protocal that allows for global communications linked by a variety of electonic, wireless, and optical technologies.  
+The Web is accessed via the internet and is an information resource based on the interface created by HTTP and web browsers.  
+
 Briefly describe how the internet works.
+Individual networks are connected by Internet Service Providers.  An individual client has a unique IP address and all outgoing data packets are labeled with this 'home' 
+address.  
+As the packets are transferred through the network, they are directed by routers and each IP number become a step in the path to preventing data from getting lost.
 
 What is a directory, and what is its relationship to files?
+Directories conceptually serve the same purpose as a folder--they nest a collection of related files.  
+A path shows a program a way into a directory to the file it's intended to use.  
 
 Why is using a VCS beneficial?
+It's a control mechanism--as you develop your code it allows you to go back to a previous state.
