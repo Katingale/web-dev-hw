@@ -15,3 +15,4 @@ A path shows a program a way into a directory to the file it's intended to use.
 
 Why is using a VCS beneficial?
 It's a control mechanism--as you develop your code it allows you to go back to a previous state.
+
