@@ -14,3 +14,7 @@ A link to your responses.txt file using its relative URL.
 An embedded image of your screenshot using its relative URL. image icon
 
 http://www.muddycolors.com/
+
+<a href="./responses.txt" /a>
+
+./responses.txt
