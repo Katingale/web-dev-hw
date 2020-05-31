@@ -16,3 +16,5 @@ An embedded image of your screenshot using its relative URL. image icon
 http://www.muddycolors.com/
 
 <a href="./responses.txt">Responses page </a>
+
+<img src="screenshot_2.png" alt="Assignment 2 Screenshot">
