@@ -1,11 +1,13 @@
 
 Briefly describe one way how data travels on the internet.
-
+(Wow , that was a great video) 
+All data is transformed into bits, which computers are capable of transmitting and reading at incredibly high rates of speed.  Binary code is transmitted by electricity, light, or radio waves over distance and translated on the other side.
 
 What is the relationship between an IP address and the DNS?
+The Domain Name Servers connect the name of a website to its unique IP address.
 
 
 What is a cookie?
-
+And "ID card" a website uses to recognize a unique user
 
 List the the three basic parts of a URL.
