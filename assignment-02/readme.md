@@ -17,4 +17,4 @@ http://www.muddycolors.com/
 
 <a href="./responses.txt">Responses page </a>
 
-<img src="/images/screenshot_2.png" alt="Assignment 2 Screenshot">
+<img src="images/screenshot_2.png" alt="Assignment 2 Screenshot">
