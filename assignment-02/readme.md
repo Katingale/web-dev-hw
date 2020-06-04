@@ -19,6 +19,8 @@ An embedded image of your screenshot using its relative URL. image icon
 
 [Favorite Art Site](http://www.muddycolors.com/)
 
-<a href="./responses.txt">Responses page </a>
 
-![](./assignment-02/images/A2SS.png)
+[Responses Page](./responses.txt"A3")
+
+
+![](./images/A2SS.png)
