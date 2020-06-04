@@ -6,7 +6,6 @@ All data is transformed into bits, which computers are capable of transmitting a
 What is the relationship between an IP address and the DNS?
 The Domain Name Servers connect the name of a website to its unique IP address.
 
-
 What is a cookie?
 And "ID card" a website uses to recognize a unique user
 
