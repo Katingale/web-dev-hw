@@ -11,3 +11,4 @@ What is a cookie?
 And "ID card" a website uses to recognize a unique user
 
 List the the three basic parts of a URL.
+Protocol, Domain/subdomain, and the Path 
