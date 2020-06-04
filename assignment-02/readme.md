@@ -11,12 +11,6 @@ Also, my advisor implied I needed this class to graduate. :wink:
 - How to make a list in MarkDown (yay!)
 
 
-Your README file for this homework's repo should also include:
-
-A link to any website you visit frequently using its absolute URL.
-A link to your responses.txt file using its relative URL.
-An embedded image of your screenshot using its relative URL. image icon
-
 [Favorite Art Site](http://www.muddycolors.com/)
 
 
