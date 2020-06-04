@@ -13,5 +13,5 @@ Probably not spending enough time on responses in my desperation to get back to 
 
 15. *Image*
 
-![Screen Shot](images/A4SS.jpg)
+![Screen Shot](./images/A4SS.jpg)
 
