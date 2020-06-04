@@ -20,7 +20,7 @@ An embedded image of your screenshot using its relative URL. image icon
 [Favorite Art Site](http://www.muddycolors.com/)
 
 
-[Responses Page](./responses.txt"A3")
+[Responses Page](./responses.txt)
 
 
 ![](./images/A2SS.png)
