@@ -6,6 +6,6 @@
 
 
 
-*Free Response: Summarize your work cycle for this assignment. image icon*
+*Free Response: Summarize your work cycle for this assignment:*
 
 
