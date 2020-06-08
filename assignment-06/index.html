@@ -8,7 +8,9 @@
         <title>Document</title>
         <style>
                 table, th, td {
-                    border: 1px solid black
+                    border: 1px solid black;
+                    padding: 5px;
+                    
                   
                 }
         </style>
@@ -27,34 +29,62 @@
                 <table>
                     <tr>
                         
-                        <th scope="col">Hours of Operation</th>
+                        <th scope="col">  Hours of Operation  </th>
                      </tr>
-                     <tr><th scope="row">Monday - Friday</th>
-                    <td>5AM--10PM</td>
+                     <tr><th scope="row">  Monday - Friday  </th>
+                    <td>  5AM--10PM  </td>
                      </tr>
-                     <tr><th scope="row">Saturday - Sunday</th>   
-                    <td>8AM--8PM</td>    
+                     <tr><th scope="row">  Saturday - Sunday  </th>   
+                    <td>  8AM--8PM  </td>    
 
 
                     </tr>
                 </table>
 
 <br>
-<br>
+
     <form action="https://example.com/" method="POST">
             What is your First Name?
-            <input type="text" name="firstname" maxlength="10">
-
-            <br><br>
-            Enter Comments Below:
+            <input type="text" name="firstname" maxlength="10" placeholder="Name" autofocus>
+            <br>
+            <br>
+            What year did you join The Source?
+            <input type="text" name="yearjoined" maxlength="4" size="4" placeholder="Year">
+          
+            <br>
+            <p>Swimming Competency Level:</p>
+            
+            
+            <input type="radio" name="level" value="Minnow"checked /> Minnow
+            <br>
+            <input type="radio" name="level" value="Trout"  /> Trout
+            <br>
+            <input type="radio" name="level" value="Dolphin" /> Dolphin
+          
+            <br>
+            
+            <br>
             <br>
 
-            <textarea cols="25" rows="15">
-                    Thoughts?
+            Is there a Source Employee who's brightened your day?
+            <br>
+             Give them some applause here!
+             <br><br>
+
+            Enter Comments Below:
+            <br><br>
+
+            <textarea cols="60" rows="4">
+I'm a proud Source member and I want to give a shout out to my favorite trainer:
             </textarea>
             <br>
+                <p>Do you give us permission to post your comment on the community message board?</p>
+                    <input type="checkbox" name="Permission" id="Yes"> Yes!
+                    <input type="checkbox" name="Permission" value="No"> No thanks.
+                    <br>
+
             <br>
-            <input type="button" value="Submit">
+            <input type="button" value="Submit" >
 
 
     </form>
