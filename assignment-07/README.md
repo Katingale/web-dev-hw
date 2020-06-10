@@ -15,5 +15,6 @@
 
 
 *Free Response: Summarize your work cycle for this assignment:*
+Seemed like a long one but I was pleasantly surprised by how easy it is to embed hosted audio and video.  Very frustrated by one sticky point: the poster image does not seem to stick on the embedded M.Art intro.  Maybe I'll figure it out, not sure where the bug is...
 
 
