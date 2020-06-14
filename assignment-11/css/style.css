@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+#topbar {
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+  background: linear-gradient(rgb(83, 111, 235), rgba(22, 56, 58,0));
+
+}
+
+#topbar img {
+  width: 350px;
+  height: auto;
+  position: absolute;
+  top: -9px;
+  z-index: 4;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  background:white;
+  height: 700px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background: rgb(141, 179, 37);
+  width: 200px;
+  height:100vh;
+  border-right: rgb(34, 41, 27) 3px solid;
+  position: absolute;
+  top: 0;
+
+  
+}
+
