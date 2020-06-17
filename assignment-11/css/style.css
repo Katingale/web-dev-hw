@@ -7,36 +7,53 @@ main {
 #topbar {
   display: flex;
   flex-direction: row;
-  height: 180px;
-  background: linear-gradient(rgb(83, 111, 235), rgba(22, 56, 58,0));
-
+  height: 20vh;
+  background: linear-gradient(rgb(83, 111, 235), rgba(22, 56, 58, 0));
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 260px;
 }
 
-#topbar img {
-  width: 350px;
+main img {
+  width: 300px;
   height: auto;
   position: absolute;
   top: -9px;
   z-index: 4;
+  
 }
 
 #content {
   display: flex;
   flex-direction: row;
-  background:white;
-  height: 700px;
+  justify-content: flex-start;
+  max-width: 100vw;
+}
+
+section {
+  background-image: url("../images/kayak.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 80vw;
+  min-height: 80vh;
+  padding: 20px 0 0 50px;
+  
 }
 
 nav {
   display: flex;
   flex-direction: column;
   background: rgb(141, 179, 37);
-  width: 200px;
-  height:100vh;
+  width: 16vw;
+  max-width: 275px;
+  min-width: 200px;
+  height: 100vh;
   border-right: rgb(34, 41, 27) 3px solid;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
-
-  
 }
 
+h1 {
+  font-size: 4rem;
+  color: pink;
+}
