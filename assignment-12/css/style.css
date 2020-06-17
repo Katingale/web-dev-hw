@@ -1,9 +1,8 @@
 header {
   display: flex;
   flex-direction: column;
-  /* position: absolute; */
-  /* border: red 3px solid; */
 }
+
 header div {
   display:flex;
   justify-content: center;
