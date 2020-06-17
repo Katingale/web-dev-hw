@@ -13,10 +13,10 @@ Id is *only* used for one element on a page and directs changes to that specific
  Top-right: #71a081;    
  bottom-left: #BE531F;
  bottom-right: #CF838C;
- 
+
 
 *Free Response: Summarize your work cycle for this assignment.*
 
-This was the first assignment I really struggled with.  I was fumbling around with tables and padding and absolute positions and finally my partner sent me [this MDN link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox) and tried to teach me about Flexbox. I'm still figuring it out, but it seems so helpful for centering and positioning boxes and I finally got this assignment to work.
+This was the first assignment I really struggled with.  I was fumbling around with tables and padding and absolute positions and finally my partner sent me [this MDN link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox) and tried to teach me about Flexbox. I'm still figuring it out, but it seems so helpful for centering and positioning boxes.  I started over in a new folder finally got this assignment to work.
 
 
