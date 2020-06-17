@@ -8,12 +8,12 @@
 .square {
     width: 50vw;
     height: auto;
-    border: #61847A 4px solid;
+    border: #61847A 6px solid;
     display: flex;
     max-height: 400px;
 }
 body {
-    background-color: #B07D4A;
+    background-color:burlywood;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,10 @@ img {
 }
 #top-left {
     background-color: #775d42;
+    line-height: 2.2em;
+
 }
+
 #text-box {
     background-color: rgba(197,180,164,0.9);
     width: 80%;
@@ -62,4 +65,17 @@ img {
 #bottom-right {
     background-color: #CF838C;
     justify-content: flex-end;
+}
+/* I came back from learning psuedo-classes in module 10 to add the opacity element in an interactive feature.  fun! */
+#top-left:hover {
+    opacity: 0.75;
+}
+#top-right:hover {
+    opacity: 0.75;
+}
+#bottom-left:hover {
+    opacity: 0.75;
+}
+#bottom-right:hover {
+    opacity: 0.75;
 }
