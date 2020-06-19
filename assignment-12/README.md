@@ -16,4 +16,7 @@ Display: inline-block is similar to inline except that block attributes of margi
 I learned a lot on this, spent a lot of time asking my partner questions like "why aren't my links centered in the div, it SHOULD be working!" etc...
 
 
-We went down a rabbit hole trying to understand why the 10% margin didn't apply to the top of the child box in this Module 11 codepen: ![borderQuestion](./images/border.jpg). Found some work arounds but still very weird.
+We went down a rabbit hole trying to understand why the 10% margin didn't apply to the top of the child box in this Module 11 codepen: ![borderQuestion](./images/border.jpg). 
+
+
+Found some work arounds but still very weird.
