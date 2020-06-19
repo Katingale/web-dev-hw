@@ -1,14 +1,32 @@
+html {
+  background-color: #443E38;
+}
+
+body {
+  width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-    background: rgb(206, 166, 128);
-  width: 100vw;
+  background: rgb(90, 137, 151);
+  background-image: url(../images/gatorskin.jpg);
+  background-blend-mode: overlay;
+  width: 800px;
+  margin-top: -4px;
+  padding: 8px 20px;
+  border: black 3px inset;
+  border-top: none;
  
-  height: 8vh;
-  border-bottom: black 3px solid;
+  /* height: 8vh; */
+  /* border-bottom: black 3px solid; */
   /* position: absolute; */
   
 }
@@ -16,12 +34,27 @@ nav a {
   border-radius: 3em 10em 10em 2em / 10em 3em 10em 2em;
   border:  5px ridge;
   border-color:white;
-  background-color: grey;
-  padding: 1em;
-  color: black;
+  background: linear-gradient(135deg, rgba(14, 95, 156, 0.4) 0%,rgba(32, 146, 232, 0.4) 100%);
+  /* background-color: #2092E8;0E5F9C */
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 1.8rem;
+  padding: 5px 15px;
+  color: rgba(1, 11, 70, 0.7);
   text-decoration: none;
     
   }
-  img {
+
+  nav a:hover {
+    color: black;
+  }
+
+  #banner {
     border: black 3px inset;
+    width: 800px;
+    height: auto;
+  }
+
+  main p {
+    font-size: 1.2rem;
+    line-height: 1.1;
   }
