@@ -1,58 +1,148 @@
+body {
+  background-image: url(../images/lacewing.jpg);
+  background-repeat: repeat;
+  min-width: 700px;
+}
+
+h1 {
+  font-family: "Ceviche One", cursive;
+  font-size: 90px;
+  color: limegreen;
+  text-shadow: black 3px 3px 5px;
+  letter-spacing: 5px;
+  /* margin-bottom: 5px; */
+  margin-top: -10px;
+  line-height: 0.9;
+  align-self: center;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 5px 80px 5px 0;
+  color: black;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+}
+
 header {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+  /* padding-left: 50px; */
 }
 
-header div {
-  display:flex;
-  justify-content: center;
+#pageTitle {
+  background-image: url(../images/ladies.jpg);
+  /* background-blend-mode: screen; */
+  padding: 0 45px;
+  border-bottom: 3px black solid;
+  display: flex;
+  justify-content: space-between;
+  min-height: 125px;
+}
+
+#pageTitle img {
+  height: 120px;
+  width: auto;
+  align-self: flex-end;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: flex-start;
   /* border: blue solid 1px; */
+  /* min-height: 200px; */
+  background: limegreen;
+  border-bottom: 3px black solid;
+  padding-left: 45px;
 }
 
 .dropdown {
   display: flex;
   flex-direction: column;
-  display: block;
-  min-height: 200px;
+  z-index: 4;
 }
 
-.dropdown-content{
-  display:none;
-  
+.dropdown-content {
+  /* margin-top: 20px; */
+  display: none;
+  position: absolute;
+  /* z-index: -1; */
+  top: 160px;
+  /* border-top: 2px black solid; */
+  /* position: absolute; */
+  background: limegreen;
+  min-width: 190px;
+  padding: 10px;
+  /* min-height: 100px; */
 }
 
-.dropdown:hover .dropdown-content, dropdown-content:hover {
-  display: block;
+/* .dropdown:hover .dropdown-content, .dropdown-content:hover {
+  display: flex;
+  flex-direction: column;
+
+
+} */
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  /* clear: both; */
 }
 
-ul {
-  list-style-type: none;
-  list-style-position: inside;
-  padding: 0;
+.dropdown-content a {
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  color: red;
+  background: black;
 }
 
 main {
   /* position: absolute; */
   /* margin-top: 125px; */
   display: flex;
+  /* display: none; */
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 30px;
 }
 
-.main-image img {
+.main-image {
   max-width: 600px;
-  width: 90%;
+  width: 100%;
   height: auto;
-  margin-right: 30px;
+  margin-top: 50px;
+  margin-right: 15px;
 }
 
-main section p {
+main section {
   max-width: 500px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+section form input {
+  align-items: flex-end;
+}
+
+#sub_btn {
+  width: 30%;
+}
