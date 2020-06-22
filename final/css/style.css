@@ -1,112 +1,112 @@
 html {
-  background-color: #443e38;
+    background-color: #443e38;
 }
 
 body {
-  width: 800px;
-  min-height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+    width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background: rgb(90, 137, 151);
-  background-image: url(../images/gatorskin.jpg);
-  background-blend-mode: overlay;
-  width: 800px;
-  margin-top: -4px;
-  padding: 8px 20px;
-  border: black 3px inset;
-  border-top: none;
-
-  /* height: 8vh; */
-  /* border-bottom: black 3px solid; */
-  /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(90, 137, 151);
+    background-image: url(../images/gatorskin.jpg);
+    background-blend-mode: overlay;
+    width: 800px;
+    margin-top: -4px;
+    padding: 8px 20px;
+    border: black 3px inset;
+    border-top: none;
 }
 nav a {
-  border-radius: 3em 10em 10em 2em / 10em 3em 10em 2em;
-  border: 5px ridge;
-  border-color: white;
-  background: linear-gradient(
-    170deg,
-    rgba(32, 146, 232, 0.6) 0%,
-    rgba(14, 95, 156, 0.3) 100%
-  );
-  /* background-color: #2092E8;0E5F9C */
-  font-family: "Berkshire Swash", cursive;
-  font-size: 1.8rem;
-  padding: 5px 15px;
-  color: rgba(1, 11, 70, 0.8);
-  text-decoration: none;
+    border-radius: 3em 10em 10em 2em / 10em 3em 10em 2em;
+    border: 5px ridge;
+    border-color: white;
+    background: linear-gradient(
+        170deg,
+        rgba(32, 146, 232, 0.6) 0%,
+        rgba(14, 95, 156, 0.3) 100%
+    );
+    font-family: "Berkshire Swash", cursive;
+    font-size: 1.8rem;
+    padding: 5px 15px;
+    color: rgba(1, 11, 70, 0.8);
+    text-decoration: none;
 }
 
 nav a:hover {
-  color: black;
+    color: black;
 }
 
 #banner {
-  border: black 3px inset;
-  width: 800px;
-  height: auto;
+    border: black 3px inset;
+    width: 800px;
+    height: auto;
 }
 
 main {
-  border: black 3px inset;
-  padding: 15px 25px;
-  background: #4f7b8a;
-  
+    border: black 3px inset;
+    padding: 15px 25px;
+    background: #4f7b8a;
 }
 
 main h1 {
-  font-family: "Berkshire Swash", cursive;
-  font-size: 2.2rem;
-  color: black;
-  text-align: center;
-  margin: 0 auto 20px;
-  background: #82bdc5;
-  padding: 5px 0;
-  border: black 2px inset;
-}
-
-#gallery_h1 {
-  padding: 5px 0 10px 0;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 2.2rem;
+    color: black;
+    text-align: center;
+    margin: 0 auto 20px;
+    background: #82bdc5;
+    padding: 5px 0;
+    border: black 2px inset;
 }
 
 main p {
-  font-size: 1.2rem;
-  line-height: 1.1;
+    font-size: 1.2rem;
+    line-height: 1.1;
 }
 
 main img {
-  /* position: relative; */
-  margin-right: 20px;
-  float: left;
-  display: block;
+    margin-right: 20px;
+    float: left;
+}
+
+#inspiration {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inspiration iframe {
+    margin-bottom: 30px;
 }
 
 .form {
-  background-color: ivory;
-  padding: 15px;
-  border: black 2px inset;
+    background-color: ivory;
+    padding: 15px;
+    border: black 2px inset;
 }
 
 .form img {
-  height: 410px;
-  margin-bottom: 20px;
+    height: 410px;
+    margin-bottom: 20px;
 }
 
 #email {
-  height: 40px;
-  padding: 10px 0;
+    height: 40px;
+    padding: 10px 0;
 }
 
 #email a {
-  font-family: "Berkshire Swash", cursive;
-  color: rgb(1, 11, 70);
-  font-size: 1.5rem;
+    font-family: "Berkshire Swash", cursive;
+    color: rgb(1, 11, 70);
+    font-size: 1.5rem;
 }

@@ -5,7 +5,7 @@ I'm not sure I learned anything strictly about Github persay, but I learned so m
 
 *Did you learn anything new about web design (ie using media, color, fonts)?*
 
-Found out that some Youtube videos disable iframe placement, but inserted some alternatives.  Definitley played around a lot with fonts and backgrounds and opacities.  
+Found out that some Youtube videos disable iframe placement, but inserted some alternatives.  Definitley played around a lot with fonts and backgrounds and opacities.
 
 *Free Response: Summarize your work cycle for this assignment.*
 
